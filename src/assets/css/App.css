@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  color: #fff;
+  height: 60px;
+}
+
+@media (max-width:768px){
+  .App-logo{
+    height: 40px;
+  }
+  .App-header {
+    height: 50px;
+    padding: 10px;
+  }
+}
+
+.App-header {
+  background-color: #192ba1;
+  height: 60px;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.side {
+  position: fixed;
+  z-index: 9999;
+  background-color: #192ba1;
+}
+.side-left {
+  width: 30px;
+  top: 60px;
+  left: 0;
+  bottom: 30px;
+}
+
+.side-right {
+  width: 30px;
+  top: 60px;
+  right: 0;
+  bottom: 30px;
+}
+.side-bottom {
+  width: 100%;
+  height: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#menu-options{
+  position: absolute;
+  top: 35%;
+  width: 100%;
+}
+
+.menu-button {
+  color: #000 !important;
+  border: 4px solid #000 !important;
+  margin-bottom: 20px!important;
+  padding: 10px!important;
+  width: 100% !important;
+}
+
+@media (min-width:768px){
+  .btn-big{
+    height: 100px !important;
+    font-size: 30px !important;
+  }
+  .side-left, .side-right{
+    bottom: 40px;
+    width: 40px;
+  }
+  .side-bottom {
+    height: 40px;
+  }
+  .App-header{
+    height: 80px;
+  }
+}
+
+.form-group{
+  margin-left: 0!important;
+  margin-right: 0!important;
+}
+
+.input-md {
+  margin-bottom: 20px;
+}
+
+.categorie{
+  font-size: 18px;
+  text-align: left;
+}
+
+.correct {
+  color: green;
+  font-style: oblique;
+}
+
+div label input {
+  margin-right:100px;
+}
+body {
+   font-family:sans-serif;
+}
+
+#ck-button {
+  margin:4px;
+  background-color:#EFEFEF;
+  border-radius:4px;
+  border:1px solid #D0D0D0;
+  overflow:auto;
+  float:left;
+}
+
+#ck-button:hover {
+  background:red;
+}
+
+#ck-button label {
+  float:left;
+  width:4.0em;
+}
+
+#ck-button label span {
+  text-align:center;
+  padding:3px 0px;
+  display:block;
+}
+
+#ck-button label input {
+  position:absolute;
+  top:-20px;
+}
+
+#ck-button input:checked + span {
+  background-color:#911;
+  color:#fff;
+}
+
+#team-table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#team-table tr, #team-table th, #team-table td{
+  padding: 5px;
+  border: 1px solid black;
+}
+
+#select{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
